@@ -1,0 +1,22 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json" /* Recommended React Native TSConfig base */,
+  "typeRoots": ["node_modules/@types", "tsconfig.json"],
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Completeness */
+    "skipLibCheck": true,
+    "types": [
+      "jest",
+      "styled-components-react-native",
+      "styled-components",
+      "@types/styled-components-react-native"
+    ],
+    "jsx": "react",
+    "module": "es6",
+    "target": "es6",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+    /* Skip type checking all .d.ts files. */
+  }
+}
